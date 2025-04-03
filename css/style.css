@@ -2,11 +2,11 @@ body {
     font-family: 'Cerebri Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/071/original/photo-1570284613060-766c33850e00.jpg?1743669584') no-repeat center center fixed;
-    background-size: cover;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    /* background: linear-gradient(to bottom, #87CEEB, #FFFFFF); */
+    background: linear-gradient(to bottom, #AEEEEE, #F0FFFF);
 }
   
 h1 {
@@ -111,8 +111,6 @@ select {
 footer {
     text-align: center;
     font-size: 16px;
-    color: rgba(0, 0, 0, 0.7);
-    background: #f9f7fe;
     padding: 15px 10px;
     margin-top: 30px;
     margin-top: auto;
