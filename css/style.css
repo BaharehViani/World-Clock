@@ -1,6 +1,12 @@
 body {
-    background-color: #f9f7fe;
     font-family: 'Cerebri Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/071/original/photo-1570284613060-766c33850e00.jpg?1743669584') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
   
 h1 {
@@ -24,6 +30,7 @@ select {
 }
   
 .container {
+    width: 100%;
     max-width: 600px;
     margin: 40px auto 50px;
     background: white;
@@ -58,18 +65,12 @@ select {
     vertical-align: middle;
     line-height: 48px;
 }
-  
-footer {
-    text-align: center;
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.8);
-}
 
 .city-header {
     display: flex;
     align-items: center;
     gap: 10px; 
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .city-header img {
@@ -105,4 +106,31 @@ footer {
 .back-link:hover {
     background: #ddd;
     color: #000;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    background: #f9f7fe;
+    padding: 15px 10px;
+    margin-top: 30px;
+    margin-top: auto;
+}
+
+footer strong {
+    color: #333;
+    font-weight: bold;
+}
+
+footer a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+footer a:hover {
+    color: #005bb5;
+    text-decoration: underline;
 }
